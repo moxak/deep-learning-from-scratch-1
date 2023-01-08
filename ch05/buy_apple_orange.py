@@ -26,7 +26,7 @@ dapple_price, dorange_price = add_apple_orange_layer.backward(dall_price)  # (3)
 dorange, dorange_num = mul_orange_layer.backward(dorange_price)  # (2)
 dapple, dapple_num = mul_apple_layer.backward(dapple_price)  # (1)
 
-print("price:", int(price))
+print("price:", int (price))
 print("dApple:", dapple)
 print("dApple_num:", int(dapple_num))
 print("dOrange:", dorange)
